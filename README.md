@@ -15,34 +15,7 @@ It provides:
 
 The project is built with Streamlit for an interactive web interface and uses an IBM APIs — allowing it to run securely.
 
-🏗️ System Architecture
-┌────────────────────────────┐
-│     User Interface Layer   │
-│     (Streamlit Frontend)   │
-│  ────────────────────────  │
-│  • Patient Chat            │
-│  • Disease Prediction      │
-│  • Treatment Plans         │
-│  • Health Analytics        │
-└──────────────┬─────────────┘
-               │
-┌──────────────┴─────────────┐
-│     Application Layer      │
-│      (Python Logic)        │
-│  ────────────────────────  │
-│  • AI Simulation           |
-|    (watson_mock.py)        │
-│  • Prediction              |
-|    (predict_from_symptoms) │
-│  • Health Metrics          |
-|          Visualization     │
-└──────────────┬─────────────┘
-               │
-┌──────────────┴─────────────┐
-│         Data Layer         │
-│   (In-memory / SQLite)     │
-│  • Stores session data     │
-└────────────────────────────┘
+
 
 🌟 Key Features
 💬 Patient Chat
